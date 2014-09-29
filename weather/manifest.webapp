@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "name": "weather",
+  "description": "FirefoxOS weather Test",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Kohei Ikeda",
+    "url": ""
+  },
+  "default_locale": "ja",
+  "installs_allowed_from": ["*"],
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "xhr! xhr!"
+    }
+  }
+}
